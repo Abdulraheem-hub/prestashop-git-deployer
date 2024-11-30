@@ -1,0 +1,6 @@
+services:
+  name: prestashop
+  build: .
+  volume: prestashop_data: /var/www/html
+  depends: db
+
